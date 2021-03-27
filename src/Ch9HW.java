@@ -9,6 +9,8 @@ public class Ch9HW {
     static int n;
     static int a;
     static int b;
+
+    
     public static void main(String[] args) {
      
             Scanner ChHw = new Scanner(System.in);  // Reading from System.in
@@ -20,6 +22,8 @@ public class Ch9HW {
             System.out.println("Age in months: " + n);
             ChHw.close();
     }  //once finished
+
+
     static void AgeCalcInMonths() {
         Date date = new Date();
         LocalDate localDate = date.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
