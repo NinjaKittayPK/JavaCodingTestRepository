@@ -2,6 +2,9 @@
 import pygame
 import tkinter
 
+WIN = pygame.display.set_mode((800, 800))
+pygame.display.set_caption('Checkers')
+
 player1name = input('What Is The Name Of Player 1?\n')
 player1PiecesOnBoard = 12
 player1PiecesCaptured = 0
