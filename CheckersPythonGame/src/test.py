@@ -1,4 +1,6 @@
 # Declaring Shite
+import pygame
+
 player1name = input('What Is The Name Of Player 1?\n')
 player1PiecesOnBoard = 12
 player1PiecesCaptured = 0
